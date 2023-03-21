@@ -70,9 +70,11 @@ function App() {
           <h3>Form Output</h3>
           <p className="text">
             <span className="title">Text : </span>
+            {text}
           </p>
           <p className="radio">
             <span className="title">Radio : </span>
+            {radio}
           </p>
           <p className="checkbox">
             <span className="title">Checkbox : </span> {`[ `} {checkbox.map((x, i) => (x ? `${i + 1}, ` : ''))}
